@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Animations</string>
+    <string name="ballbutton">ballButton</string>
+    <string name="starbutton">starButton</string>
+    <string name="jump">Jump</string>
+    <string name="spin">Spin</string>
+    <string name="turn_around">Turn around</string>
+    <string name="starimage">starimage</string>
+    <string name="ballimage">ballImage</string>
+    <string name="clap">Clap</string>
+    <string name="run">Run</string>
+</resources>
