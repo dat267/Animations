@@ -9,4 +9,6 @@
     <string name="ballimage">ballImage</string>
     <string name="clap">Clap</string>
     <string name="run">Run</string>
+    <string name="nod">Nod</string>
+    <string name="stretch">Stretch</string>
 </resources>

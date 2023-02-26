@@ -60,17 +60,6 @@
         app:layout_constraintTop_toBottomOf="@+id/starButton" />
 
     <Button
-        android:id="@+id/turnButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:onClick="turnAround"
-        android:text="@string/turn_around"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
         android:id="@+id/spinButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,6 +69,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/turnButton"
         app:layout_constraintEnd_toStartOf="@+id/turnButton"
         app:layout_constraintTop_toTopOf="@+id/turnButton" />
+
+    <Button
+        android:id="@+id/turnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="turnAround"
+        android:text="@string/turn_around"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/jumpButton"
@@ -102,5 +102,39 @@
         app:layout_constraintBottom_toTopOf="@+id/turnButton"
         app:layout_constraintEnd_toEndOf="@+id/turnButton"
         app:layout_constraintStart_toStartOf="@+id/turnButton" />
+
+    <Button
+        android:id="@+id/nodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:onClick="nod"
+        android:text="@string/nod"
+        app:layout_constraintBottom_toBottomOf="@+id/clapButton"
+        app:layout_constraintStart_toEndOf="@+id/clapButton"
+        app:layout_constraintTop_toTopOf="@+id/clapButton" />
+
+    <Button
+        android:id="@+id/stretchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:onClick="stretch"
+        android:text="@string/stretch"
+        app:layout_constraintBottom_toBottomOf="@+id/clapButton"
+        app:layout_constraintEnd_toStartOf="@+id/clapButton"
+        app:layout_constraintTop_toTopOf="@+id/clapButton" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="360dp"
+        android:layout_height="202.5dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
